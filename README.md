@@ -90,3 +90,7 @@ The first full-page template is the shared onboarding system. See
 [`Documentation/Onboarding.md`](Documentation/Onboarding.md) for the standard flow,
 custom-page flow, Swift Playgrounds lab, and completion-state example.
 
+The shared support experience is documented in
+[`Documentation/Support.md`](Documentation/Support.md), including a safe mock-purchase
+lab and the StoreKit-backed production integration.
+
