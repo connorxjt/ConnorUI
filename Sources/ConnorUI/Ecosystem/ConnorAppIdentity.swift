@@ -92,6 +92,5 @@ public enum ConnorAppCatalog {
 
     public static let all: [ConnorAppIdentity] = [trudget, sculpt, pantry, fitCheck]
 
-    private init() {}
 }
 
