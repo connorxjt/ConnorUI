@@ -122,10 +122,7 @@ public struct ConnorOnboardingFlow<Page, PageContent: View>: View {
         .padding(.horizontal, ConnorSpacing.xLarge)
         .padding(.top, ConnorSpacing.medium)
         .padding(.bottom, ConnorSpacing.large)
-        .background(.ultraThinMaterial)
-        .overlay(alignment: .top) {
-            Divider().opacity(0.5)
-        }
+        .background(theme.canvas)
     }
 
     private var isLastPage: Bool {
