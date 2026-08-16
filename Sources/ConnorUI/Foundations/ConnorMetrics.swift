@@ -9,7 +9,6 @@ public enum ConnorSpacing {
     public static let xLarge: CGFloat = 24
     public static let xxLarge: CGFloat = 32
 
-    private init() {}
 }
 
 /// Shared corner radii for controls, cards, and large presentation surfaces.
@@ -19,7 +18,6 @@ public enum ConnorRadius {
     public static let large: CGFloat = 22
     public static let hero: CGFloat = 28
 
-    private init() {}
 }
 
 /// Shared control sizes that keep touch targets comfortable and consistent.
@@ -28,6 +26,5 @@ public enum ConnorControlSize {
     public static let buttonHeight: CGFloat = 54
     public static let largeButtonHeight: CGFloat = 58
 
-    private init() {}
 }
 
