@@ -1,14 +1,8 @@
-import SwiftUI
+/// A namespace for ConnorUI package metadata.
+public enum ConnorUI {
+    /// The development version represented by the current foundations branch.
+    public static let version = "0.2.0-development"
 
-public struct ConnorUITestBadge: View {
-    public init() {}
-
-    public var body: some View {
-        Label("ConnorUI connected", systemImage: "checkmark.circle.fill")
-            .font(.headline)
-            .foregroundStyle(.white)
-            .padding(.horizontal, 18)
-            .padding(.vertical, 12)
-            .background(.green.gradient, in: Capsule())
-    }
+    private init() {}
 }
+
