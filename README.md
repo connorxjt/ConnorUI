@@ -84,3 +84,9 @@ ContentView()
 
 Apps can also create a custom `ConnorTheme` while keeping the shared components and behavior.
 
+## Shared page templates
+
+The first full-page template is the shared onboarding system. See
+[`Documentation/Onboarding.md`](Documentation/Onboarding.md) for the standard flow,
+custom-page flow, Swift Playgrounds lab, and completion-state example.
+
